@@ -3,3 +3,60 @@ body {
   height: 100%;
   margin: 0;
 }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 40px;
+    }
+  header {
+      text-align: center;
+      }
+     
+.navbar a {
+        display: inline-block;
+        padding: 10px;
+        background-color: grey;
+        color: white;
+        text-decoration: none;
+        margin: 5px;
+        }
+
+#featured-property {
+          text-align: center;
+          }
+
+#featured-property p {
+          width: 800px;
+          margin: 20px auto;
+          text-align: center;
+          }
+#details {
+            clear: both;
+            }
+
+#details > div {
+    float: left;
+    margin-right: 20px;
+  }
+ /* Apply these styles to all <div> elements within the bottom section */
+#details div {
+  background-color: red;
+  text-align: center;
+  width: 25%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 0;
+  }
+ /* Clear any previous floats or layout styles */
+.bottom-section::after {
+  content: '';
+  display: table;
+  clear: both;
+  }
+    
+            
+          
+            
